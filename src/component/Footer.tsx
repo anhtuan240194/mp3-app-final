@@ -39,6 +39,7 @@ export default function Footer() {
   useEffect(() => {
     newAudio.current.src = currentSong.url;
     newAudio.current.load();
+    document.title = currentSong.name;
   }, [currentSong]);
   useEffect(() => {
     if (playing) {
