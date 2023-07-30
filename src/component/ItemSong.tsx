@@ -41,10 +41,11 @@ export default function ItemSong({song, stateActive} : {song: Song, stateActive:
                 <div className="number">{song.id}</div>
                 <div className="avatar_song">
                     <img src={song.image} alt="Bài hát" />
+                    {!stateActive.play || 
                     <div className="position">
-                        { stateActive.play ? <img src={IconPlay} alt="Đang phát" />
-                        : <img src={IconPause} alt="Đang tắt" /> }
+                        <img src={IconPlay} alt="Đang phát" />
                     </div>
+                    }
                     
                 </div>
                 <div className="name_song">
