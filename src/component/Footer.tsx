@@ -35,7 +35,6 @@ export default function Footer() {
   const durationSong = useRef<HTMLSpanElement | null>(null);
   const currentTimeSong = useRef<HTMLSpanElement | null>(null);
   const timeBarSong = useRef<HTMLInputElement | null>(null);
-  const volumeSong = useRef<HTMLInputElement | null>(null);
 
 
   useEffect(() => {

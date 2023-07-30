@@ -1,4 +1,3 @@
-import IconAvatar from "../assets/vol1.jpg"
 import IconPause from "../assets/play-button-inside-a-circle.svg"
 import IconPlay from "../assets/iconplaying.gif"
 import { useState, useEffect } from "react"
