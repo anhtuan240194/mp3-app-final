@@ -9,7 +9,7 @@ const dataSong = [
     {
         id:2,
         name: "Lệ tình",
-        url: "/Letinh.mp3",
+        url: "/LeTinh.mp3",
         brand:"HKT Brand",
         image: "/Letinh.jpg"
     },
