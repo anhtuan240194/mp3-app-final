@@ -39,7 +39,7 @@ const dataSong = [
         name: "Nàng Kiểu lỡ bước",
         url:"/NangKieuLoBuoc.mp3",
         brand:"HKT",
-        image: "/NangKieuLoBuoc.jpg"
+        image: "/TruMua.jpg"
     }
 ];
 export default dataSong
