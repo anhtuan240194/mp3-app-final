@@ -180,7 +180,12 @@ export default function Footer() {
         <div className="footer_mv">
           <img src={MvIcon} alt="Xem Mv" />
         </div>
-        <Button>
+        <Button
+        onClick={()=> {
+          dispatch(setVolume(0));
+          newAudio.current.volume = 0
+        } }
+        >
           {volume === 0 ? (
             <img src={MuteIcon} alt="Bật tiếng" />
           ) : volume <= 0.5 ? (
@@ -194,7 +199,6 @@ export default function Footer() {
         value={volume}
         onChange={(e) => {
             dispatch(setVolume(+e.target.value));
-            console.log(volume)
             newAudio.current.volume =  +e.target.value;
         }}
         >
