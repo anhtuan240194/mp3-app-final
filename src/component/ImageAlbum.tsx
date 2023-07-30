@@ -1,9 +1,12 @@
 import AvatarIcon from "../assets/vol1.jpg"
+import { UseSelector, useSelector } from "react-redux/es/hooks/useSelector"
+import { RootState } from "../features/store"
 
 export default function ImageAlbum() {
+    const {currentSong} = useSelector((state:RootState) => state.player)
     return (
         <div className="avatar-music">
-            <img src={AvatarIcon} alt="album" />
+            <img src={currentSong.image} alt="album" />
             <div className="name_album">Mặt trái của sự thật</div>
             <div className="brand_album">HKT - 2011</div>
             <div className="wish_count">8000 nguoi yeu thich</div>

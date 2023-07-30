@@ -118,7 +118,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="footer-left">
-        <img className="footer-avatar" src={AvatarIcon} alt="" />
+        <img className="footer-avatar" src={currentSong.image} alt="" />
         <div style={{ marginLeft: "0.5rem" }}>
           <div className="name-music">{currentSong.name}</div>
           <div className="brand-music">{currentSong.brand}</div>

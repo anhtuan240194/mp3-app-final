@@ -2,44 +2,44 @@ const dataSong = [
     {
         id:1,
         name: "Giá như chưa từng quen",
-        url: "/assets/songs/GiaNhuChuaTungQuen.mp3",
+        url: "/assets/GiaNhuChuaTungQuen.mp3",
         brand:"HKT - TV",
-        image: "/assets/songs/GiaNhuChuaTungQuen.jpg"
+        image: "/assets/GiaNhuChuaTungQuen.jpg"
     },
     {
         id:2,
         name: "Lệ tình",
-        url: "/assets/songs/Letinh.mp3",
+        url: "/assets/Letinh.mp3",
         brand:"HKT Brand",
-        image: "/assets/songs/Letinh.jpg"
+        image: "/assets/Letinh.jpg"
     },
     {
         id:3,
         name: "Mặt trái của sự thật",
-        url: "/assets/songs/MatTraiCuaSuThat.mp3",
+        url: "/assets/MatTraiCuaSuThat.mp3",
         brand:"HKT",
-        image: "/assets/songs/MatTraiCuaSuThat.jpg"
+        image: "/assets/MatTraiCuaSuThat.jpg"
     },
     {
         id:4,
         name: "Thêm một lần đau",
-        url:"/assets/songs/ThemMotLanDau.mp3",
+        url:"/assets/ThemMotLanDau.mp3",
         brand:"HKT",
-        image: "/assets/songs/ThemMotLanDau.jpg"
+        image: "/assets/ThemMotLanDau.jpg"
     },
     {
         id:5,
         name: "Trú mưa",
-        url:"/assets/songs/TruMua.mp3",
+        url:"/assets/TruMua.mp3",
         brand:"HKT",
-        image: "/assets/songs/TruMua.jpg" 
+        image: "/assets/TruMua.jpg" 
     },
     {
         id:6,
         name: "Nàng Kiểu lỡ bước",
-        url:"/assets/songs/NangKieuLoBuoc.mp3",
+        url:"/assets/NangKieuLoBuoc.mp3",
         brand:"HKT",
-        image: "/assets/songs/NangKieuLoBuoc.jpg"
+        image: "/assets/NangKieuLoBuoc.jpg"
     }
 ];
 export default dataSong
