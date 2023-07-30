@@ -1,4 +1,3 @@
-import AvatarIcon from "../assets/vol1.jpg";
 import Heart from "../assets/heart.svg";
 import SouffleIcon from "../assets/random.svg";
 import PrevIcon from "../assets/previous.svg";

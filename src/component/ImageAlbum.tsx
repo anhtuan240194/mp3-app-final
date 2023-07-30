@@ -1,5 +1,4 @@
-import AvatarIcon from "../assets/vol1.jpg"
-import { UseSelector, useSelector } from "react-redux/es/hooks/useSelector"
+import {  useSelector } from "react-redux/es/hooks/useSelector"
 import { RootState } from "../features/store"
 
 export default function ImageAlbum() {
